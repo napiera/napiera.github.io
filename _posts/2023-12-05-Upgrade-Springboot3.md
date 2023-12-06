@@ -14,7 +14,7 @@ SpringBoot의 최신 버전인 3.x 로의 업그레이드를 위한 Guide를 개
 
 SpringBoot3에서는 Java 17이상을 지원합니다.
 
-![java lts](https://private-user-images.githubusercontent.com/8067371/287926313-b3d1c8ed-2437-46a9-ba4b-43023da0bdcf.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDE3NTg0MzEsIm5iZiI6MTcwMTc1ODEzMSwicGF0aCI6Ii84MDY3MzcxLzI4NzkyNjMxMy1iM2QxYzhlZC0yNDM3LTQ2YTktYmE0Yi00MzAyM2RhMGJkY2YucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMTIwNSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzEyMDVUMDYzNTMxWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NzMyMWVlZDBjZmZhNzNlN2EzNDgzZmE1YmZlNzMzZWJmOTQ2Njk4OGNiNDA5YTRmMDY0NjQ2MzlkNDY5OWQyNSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.X8B9_eqhbgQQk6FhCcbsag9UXMicRxbcB2Cez9HPS0Y)
+![java lts](https://drive.google.com/uc?export=view&id=1k0ZmlrA8Et_j5UH1--3oKViSmqosNCFE)
 
 *(Java 17 Version은 2021년 9월 새로 공개한 LTS(Long-Term Support) 버전으로, Oracle JDK 기준 2029년 9월까지 지원)*
 
@@ -36,7 +36,8 @@ java {
 
 # 2. 스프링 부트 2.7.X 업그레이드
 
-![springboot2.7](https://private-user-images.githubusercontent.com/8067371/287928297-d6823b8e-f1c6-452c-b25b-fa519d14132f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDE3NTg0MzEsIm5iZiI6MTcwMTc1ODEzMSwicGF0aCI6Ii84MDY3MzcxLzI4NzkyODI5Ny1kNjgyM2I4ZS1mMWM2LTQ1MmMtYjI1Yi1mYTUxOWQxNDEzMmYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMTIwNSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzEyMDVUMDYzNTMxWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YjlmMzRhZTFmNzc5ZGQ4ODlmMTY0MmNmZTViNzBjYWQyNWQxZDY2NmE4NjZhN2RlYWY5YjFiNGQ3OTU3MTI3YSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.P981ATk_y7ZAhh7gfWqiMMMGHGFX7bHceu6BpHO2iH0)
+![springboot2.7](https://drive.google.com/uc?export=view&id=1f7nMSMRXrkdULccAj_dpJ-WFVaYT2QwP)
+
 SpringBoot3 버전으로 Upgrade 전에, 2.x 버전의 최신인 2.7.7으로 먼저 패치를 한 이후, Deprecated되어있는 함수들을 Migration 이후에 3.x 버전으로 Upgrade 하는 것이 좋습니다.
 
 저는 현재 2.6.6 버전을 사용하고 있기 때문에, 다음과 같은 순서로 진행하였습니다.
